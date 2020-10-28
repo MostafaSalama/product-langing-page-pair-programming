@@ -1,21 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Fork Me! FCC: Test Suite Template</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
 
-  <body>
-  <header id="header">
-    <div>
-      <img src="./img/icons8-procreate.svg" id="header-img" alt="company logo">
-      <h1>Company One</h1>
-    </div>
-  </header>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<body>
+		<header id="header">
+			<div>
+				<img
+					src="./img/icons8-procreate.svg"
+					id="header-img"
+					alt="company logo"
+				/>
+				<h1>Company One</h1>
+			</div>
+			<nav id="nav-bar">
+				<ul>
+					<li><a class="nav-link" href="#subscribe">Subscribe</a></li>
+					<li><a class="nav-link" href="#features">Features</a></li>
+					<li><a class="nav-link" href="#about">About</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div id="subscribe">
+				<form id="form" action="https://www.freecodecamp.com/email-submit">
+					<label>
+						<input
+							type="email"
+							id="email"
+							required
+							placeholder="Enter Your Email to Subscribe"
+							name="email"
+						/>
+					</label>
+                  <input type="submit" id="submit" />
+				</form>
+			</div>
+          <div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/DMVSzUvTdV4?rel=0&controls=0&showinfo=0" id="video"></iframe>
+          </div>
+          <div id="features">
+			  <div class="products">
+				  <div class="product-card">
+					  <div class="badge">Hot</div>
+					  <div class="product-tumb">
+						  <img src="https://i.imgur.com/xdbHo4E.png" alt="">
+					  </div>
+					  <div class="product-details">
+						  <span class="product-catagory">Women,bag</span>
+						  <h4><a href="">Women leather bag</a></h4>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+						  <div class="product-bottom-details">
+							  <div class="product-price"><small>$96.00</small>$230.99</div>
+							  <div class="product-links">
+								  <a href=""><i class="fa fa-heart"></i></a>
+								  <a href=""><i class="fa fa-shopping-cart"></i></a>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="product-card">
+					  <div class="badge">Hot</div>
+					  <div class="product-tumb">
+						  <img src="https://i.imgur.com/xdbHo4E.png" alt="">
+					  </div>
+					  <div class="product-details">
+						  <span class="product-catagory">Women,bag</span>
+						  <h4><a href="">Women leather bag</a></h4>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+						  <div class="product-bottom-details">
+							  <div class="product-price"><small>$96.00</small>$230.99</div>
+							  <div class="product-links">
+								  <a href=""><i class="fa fa-heart"></i></a>
+								  <a href=""><i class="fa fa-shopping-cart"></i></a>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="product-card">
+					  <div class="badge">Hot</div>
+					  <div class="product-tumb">
+						  <img src="https://i.imgur.com/xdbHo4E.png" alt="">
+					  </div>
+					  <div class="product-details">
+						  <span class="product-catagory">Women,bag</span>
+						  <h4><a href="">Women leather bag</a></h4>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+						  <div class="product-bottom-details">
+							  <div class="product-price"><small>$96.00</small>$230.99</div>
+							  <div class="product-links">
+								  <a href=""><i class="fa fa-heart"></i></a>
+								  <a href=""><i class="fa fa-shopping-cart"></i></a>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="product-card">
+					  <div class="badge">Hot</div>
+					  <div class="product-tumb">
+						  <img src="https://i.imgur.com/xdbHo4E.png" alt="">
+					  </div>
+					  <div class="product-details">
+						  <span class="product-catagory">Women,bag</span>
+						  <h4><a href="">Women leather bag</a></h4>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+						  <div class="product-bottom-details">
+							  <div class="product-price"><small>$96.00</small>$230.99</div>
+							  <div class="product-links">
+								  <a href=""><i class="fa fa-heart"></i></a>
+								  <a href=""><i class="fa fa-shopping-cart"></i></a>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+          <div id="about">
+			  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aperiam asperiores blanditiis commodi consectetur enim libero nisi pariatur possimus quisquam rerum sed unde velit veniam voluptates. Aspernatur eius quod voluptatum?</span><span>Numquam quibusdam rerum veniam voluptatem. Aperiam architecto asperiores beatae eius eligendi eos inventore iusto molestias, non pariatur saepe, similique vel voluptates. Aliquam architecto assumenda beatae corporis fuga maxime, nulla odit.</span></p>
+		  </div>
+		</main>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
+		<!--
 
     Hello Camper!
 
@@ -27,6 +136,6 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
-  </body>
+		<script src="js/index.js"></script>
+	</body>
 </html>
